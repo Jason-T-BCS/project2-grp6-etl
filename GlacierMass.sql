@@ -1,0 +1,18 @@
+--DROP TABLE if exists GlacierMass;--
+
+CREATE TABLE GlacierMass(
+	Year INT NOT NULL,
+	MeanGlacierMass DECIMAL NOT NULL,
+	GCAGMeanGlobalTemp DECIMAL NOT NULL,
+	NHem DECIMAL NOT NULL,
+	SHem DECIMAL NOT NULL,
+	TotalCo2Emission DECIMAL NOT NULL,
+	GasFuel DECIMAL NOT NULL,
+	LiquidFuel DECIMAL NOT NULL,
+	SolidFuel DECIMAL NOT NULL,
+	Cement DECIMAL NOT NULL,
+	GasFlaring	DECIMAL NOT NULL,
+	PerCapita DECIMAL NOT NULL
+);
+
+SELECT * FROM GlacierMass;
